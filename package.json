@@ -1,0 +1,39 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk-react-native-core": "./aws/aws-sdk-react-native-core-0.0.1.tgz",
+    "aws-sdk-react-native-lambda": "./aws/aws-sdk-react-native-lambda-0.0.1.tgz",
+    "invariant": "^2.2.2",
+    "react": "15.4.1",
+    "react-native": "0.39.2",
+    "react-native-aws-signature": "0.0.9",
+    "react-native-drawer": "^2.3.0",
+    "react-native-facebook-login": "^1.4.0",
+    "react-native-fbsdk": "^0.4.0",
+    "react-native-material-kit": "^0.3.3",
+    "react-native-material-toolbar": "^1.1.9",
+    "react-native-navbar": "^1.6.0",
+    "react-native-scrollable-tab-view": "^0.7.0",
+    "react-native-scrolling-menu": "^0.1.1",
+    "react-native-simple-modal": "^4.0.2",
+    "react-native-slider": "^0.9.1",
+    "react-native-splash-screen": "^1.0.9",
+    "react-native-tabs": "^1.0.9",
+    "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
